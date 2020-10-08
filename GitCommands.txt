@@ -6,5 +6,5 @@ git checkout -b <branch name>
 git branch
 git remote add origin <repo name from github
 git push -u origin master>
-git push origin my-new-branch
+git push origin <my-new-branch>
 git log
