@@ -1,0 +1,33 @@
+cd windows\system32\
+
+To access another drive, type the drive's letter, followed by ":". For instance, 
+if you wanted to change the drive from "C:" to "D:", you should type "d:" and then press Enter on your keyboard.
+
+dir - view the contents of a directory
+
+MKDIR - To create a new directory
+
+REN (Rename) command. 
+
+The Copy command allows you to copy files from one location to another.
+To use this command, type "copy location\filename.extension newlocation\newname.extension".
+
+To copy a folder and its content from a location to another, use the XCOPY command followed by the "/s /i" operators. 
+Let's assume that we need to copy a folder from "D:\Digital_Citizen" to "C:\Backup_Digital_Citizen.
+" To do that, we have to run the command "xcopy /s /i d:\Digital_Citizen c:\Backup_Digital_Citizen."
+The "/s" parameter ensures that all the directories and subdirectories are going to be copied, except the ones that are empty.
+The "/i" parameter creates a new directory if the destination folder does not exist and copies all the files in it. 
+
+The DEL (Delete) is used to delete files from the folders you have created.
+To delete all the files from a folder, you can run the command "del folder.
+
+The DEL command cannot be used to delete folders.
+Therefore we must use another command to remove any empty folder: RD (Remove Directory).
+We have previously deleted all the files from the Digital_Citizen_Tests folder.
+It is now time to delete the directory too, by typing "RD Digital_Citizen_Tests."
+
+To run a program from the Command Prompt, 
+you need only to navigate to the folder that contains the executable and type the program's name. 
+For example, if you want to launch Paint using Command Prompt, go to "C:\Windows\System32", 
+where its executable is: mspaint.exe. Let's see how this operation is done if you were in "D:\Digital_Citizen."
+First of all, change the working directory to the application's folder by typing "cd /d c:\windows\System32\"
