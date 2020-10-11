@@ -1,0 +1,14 @@
+Add Maven project:
+mvn archetype:generate -DgroupId=com.example -DartifactId=Sample
+-DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4-DinteractiveMode=false
+
+Maven command:
+mvn --version, --v
+
+Mvn package - to create target folder
+mvn validate -
+mvn compile
+mvn build
+mvn test
+mvn clean
+mvn clean install
